@@ -14,7 +14,7 @@
       <v-divider></v-divider>
         <v-list dense>
          <v-list-item-group color="primary">
-          <v-list-item v-for="(item, i) in items" :key="i" :to="item.link" link>
+          <v-list-item v-for="(item, i) in items" :key="i" :to="item.link"  link>
           <v-list-item-icon>
             <v-icon v-text="item.icon"></v-icon>
           </v-list-item-icon>
@@ -44,9 +44,9 @@
     data: () => ({ 
       drawer: null,
       items: [
-        { title: 'Home', icon: 'mdi-home', link:"/" },
-        { title: 'Add Post', icon: 'mdi-note-plus', link:"/add-post" },
-        { title: 'About', icon: 'mdi-help-box', link:"/about" },
+        { title: 'Home', icon: 'mdi-home', link: "/" },
+        { title: 'Add Post', icon: 'mdi-note-plus', link: "/add-post" },
+        { title: 'About', icon: 'mdi-help-box', link: "/about" },
       ],
      }),
   }
