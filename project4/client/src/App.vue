@@ -7,7 +7,7 @@
             RubyShark
           </v-list-item-title>
           <v-list-item-subtitle>
-            Blog
+            Note Center
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -30,7 +30,7 @@
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>My Notes</v-toolbar-title>
     </v-app-bar>
 
     <v-main>

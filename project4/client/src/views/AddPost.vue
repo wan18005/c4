@@ -12,7 +12,7 @@
 
             <v-textarea label="Content" v-model="post.content" prepend-icon="mdi-note-plus" :rules="rules"></v-textarea>
 
-            <v-file-input @change="selectFile" label="Select Image" :rules="rules" show-size counter multiple ></v-file-input>
+            <v-file-input @change="selectFile" label="Upload file" :rules="rules" show-size counter multiple ></v-file-input>
 
             <v-btn type="submit" class="mt-3" color="primary">Add Post</v-btn>
           </v-form>
