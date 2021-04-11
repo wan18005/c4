@@ -12,9 +12,9 @@
 
             <v-textarea label="Content" v-model="post.content" prepend-icon="mdi-note-plus" :rules="rules"></v-textarea>
 
-            <v-file-input @change="selectFile" label="Select Image" show-size counter multiple ></v-file-input>
+            <!-- v-file-input @change="selectFile" label="Select Image" show-size counter multiple ></v-file-input -->
 
-            <v-img :src="`/${post.image}`" width = '240'></v-img>
+            <!-- v-img :src="`/${post.image}`" width = '240'></v-img-->
 
             <v-btn type="submit" class="mt-3" color="success">update Post</v-btn>
           </v-form>
